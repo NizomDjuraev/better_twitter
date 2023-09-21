@@ -26,7 +26,7 @@ export default function Home() {
             >
               <h3 className="text-2xl font-bold">First Steps →</h3>
               <div className="text-lg">
-                Just the basics - Don't be a dork.
+                Just the basics - Dont be a dork.
               </div>
             </Link>
             <Link
