@@ -25,6 +25,11 @@ export default function Home() {
       
       <SignIn path="/sign-in" routing="path" signUpUrl="/sign-up" />
       </div>
+      <div>
+        {data?.map((post) => (
+          <div key={post.id}>{post.content}</div>
+        ))}
+      </div>
     </main>
     </>
   );
